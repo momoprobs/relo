@@ -1,0 +1,57 @@
+div.map {
+	display: block;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 580px;
+}
+
+div.map > img {
+	display: block;
+	width: 100%;
+}
+
+div.info {
+	position: absolute;
+	left: 580px;
+	width: 60%;
+	overflow-y: scroll; 
+}
+
+div.hood_row {
+	display: block;
+	width: 100%;
+	height: 338px;
+}
+
+div.hood {
+	display: block;
+	float: left;
+	width: 33%;
+	height: 100%;
+	color: #838584;
+	font-size: 14px;
+	font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	text-align: center;
+}
+
+div.hood:hover {
+	cursor: pointer;
+	opacity: .5;
+}
+
+div.hood > img {
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+
+}
+
+div.hood > p {
+	display: block;
+	text-align: left;
+	margin: 10px;
+	height: 100px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}

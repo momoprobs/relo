@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Relo</title>
+		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+		<%= csrf_meta_tags %>
+</head>
+<body>
+	<div class="nav">
+		<div class="logo">ReLo</div>
+		<div class="nav_inner">
+			<div class="nav_item">Properties</div>
+			<div class="nav_item">Neighborhoods</div>
+			<div class="nav_item">Account</div>
+		</div>
+
+	</div>
+
+	<%= yield %>
+
+</body>
+</html>
